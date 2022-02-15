@@ -24,6 +24,8 @@ The entire pipeline is divided into 4 components:
 4)insert_values: This component inserts the data stored in the csv file into the Postgres table created 
                  in the previous component.
 
+For Postgres connection created a custom connection in the Airflow UI and used the Postgres Hooks to create the databse connection.
+
 """
 
 
