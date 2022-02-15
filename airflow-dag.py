@@ -111,6 +111,7 @@ def insert_values(ti):
     print("the dataframe is inserted")
     cursor.close()
 
+#DAG Definition
 
 default_args = {
     'owner': 'mustafa',
